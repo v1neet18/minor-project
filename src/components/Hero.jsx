@@ -3,7 +3,7 @@ import heroImg from "../assets/chat.png"
 
 function Hero() {
   return (
-    <div className="hero bg-base-200 min-h-screen">
+    <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="w-1/3 flex items-end justify-end">
         <img
