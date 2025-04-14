@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 function Signup() {
   return (
     <>
-      <Container>
-        <div className="bg-base-200 shadow-md rounded-2xl flex mx-auto justify-center border border-black/10 mt-20">
-          <div className="mx-auto w-full max-w-lg  rounded-xl p-10 border-black/10">
+    <div className="min-h-screen w-full">
+        <div className="bg-base-200 max-w-lg w-9/10  shadow-md rounded-2xl flex mx-auto justify-center border border-black/10 mt-20">
+          <div className="mx-auto w-full px-4 py-8 lg:px-10 lg:py-12 border-black/10">
             <h2 className="text-center text-2xl font-bold leading-tight">
             Sign up to create your account
             </h2>
@@ -49,7 +49,7 @@ function Signup() {
             </form>
           </div>
         </div>
-      </Container>
+        </div>
     </>
   );
 }

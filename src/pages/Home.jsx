@@ -51,13 +51,13 @@ function Home() {
   return (
     <div className="flex flex-col w-full">
       <Hero />
-      <div className="px-4 py-10 flex flex-wrap justify-center gap-6">
+      {/* <div className="px-4 py-10 flex flex-wrap justify-center gap-6">
         {
           featureInfo.map((info) => (
             <FeatureCard imgSrc={info.src} title={info.title} description={info.description} />
           ))
         }
-      </div>
+      </div> */}
     </div>
   );
 }
