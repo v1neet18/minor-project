@@ -5,9 +5,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="text-2xl">
+      <div className="text-2xl text-black">
         <Header />
-        <main className="flex items-center justify-center">
+        <main className="flex items-center justify-center mt-18 bg-white">
           <Outlet />
         </main>
         <Footer />
