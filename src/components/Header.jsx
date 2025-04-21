@@ -1,15 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../assets/logo.png"
 import logo2 from "../assets/logo2.png"
+import logo from "../assets/labEase.png"
 
 
 function Header() {
   const navigate = useNavigate();
   return (
     <>
-
-   
       <div className="navbar bg-white px-2 lg:px-10 shadow-sm  border-b border-b-gray-200 fixed left-0 right-0 top-0 h-18 z-99">
         <div className="flex-1 ">
           {/* <button className="btn btn-ghost text-xl font-bold  w-20" onClick={() => navigate("/")}> */}
